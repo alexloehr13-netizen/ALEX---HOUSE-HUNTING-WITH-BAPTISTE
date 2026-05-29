@@ -30,7 +30,7 @@ export const BLUEPRINT_ROWS: BlueprintRow[] = [
     description: "Your comprehensive roadmap to identifying legitimate structures, making initial written offers, understanding real estate power structures, and ensuring your contracts are bulletproof.",
     checklist: [
       "Securing the right local tax numbers without wasting days in Government hallways",
-      "Vetting the '€1 Home' programs—and calculating the actual price of admission",
+      "Vetting the '$1 Home' programs—and calculating the actual price of admission",
       "The Exact timeline of the Notary process from primary Deposit to Key Handover",
       "How to negotiate down standard agent fees and find off-market listings"
     ],

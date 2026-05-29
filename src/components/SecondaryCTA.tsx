@@ -62,14 +62,14 @@ export default function SecondaryCTA() {
           <div className="flex flex-col items-center md:items-end shrink-0 w-full md:w-auto relative z-10">
             <div className="mb-4 text-center md:text-right">
               <span className="text-xs font-mono text-tuscan-grey line-through block">
-                Regularly €29.99
+                Regularly 37,99$
               </span>
               <div className="flex items-center justify-center md:justify-end gap-1.5 mt-0.5">
                 <span className="text-[10px] uppercase font-mono font-bold text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200">
-                  40% OFF
+                  SAVE $20 TODAY
                 </span>
                 <span className="font-serif text-4xl font-bold text-[#132230]">
-                  €17.99
+                  $17,99
                 </span>
               </div>
               <span className="text-[9px] uppercase tracking-widest font-bold text-tuscan-gold font-mono block mt-1">

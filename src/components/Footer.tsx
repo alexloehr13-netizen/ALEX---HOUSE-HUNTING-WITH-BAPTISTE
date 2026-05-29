@@ -36,7 +36,7 @@ export default function Footer() {
               onClick={handleCheckout}
               className="group relative flex w-full max-w-md items-center justify-center gap-2 rounded bg-emerald-600 px-10 py-4.5 text-base font-bold text-tuscan-white shadow-lg transition-all duration-300 hover:bg-emerald-700 hover:scale-[1.03] cursor-pointer"
             >
-              <span>BUY NOW (Just €17,99)</span>
+              <span>BUY NOW (Just $17,99)</span>
             </button>
             
             <p className="text-xs text-[#BEB5AD]/85 flex items-center gap-1">

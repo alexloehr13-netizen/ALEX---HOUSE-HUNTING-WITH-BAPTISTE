@@ -67,12 +67,12 @@ export default function ValueStack() {
               {/* Price Callout */}
               <div className="flex flex-col items-start md:items-end shrink-0 bg-tuscan-white/75 rounded-lg p-4 border border-tuscan-gold/15 shadow-xs">
                 <span className="text-xs font-medium text-tuscan-grey line-through">
-                  Total Valuation: €{totalValue.toFixed(2)}
+                  Total Valuation: ${totalValue.toFixed(2).replace('.', ',')}
                 </span>
                 <div className="flex items-center gap-1.5 mt-0.5">
                   <span className="text-xs font-bold text-tuscan-gold bg-tuscan-gold/15 py-0.5 px-2 rounded">SALE</span>
                   <span className="font-serif text-4xl font-bold text-tuscan-rust">
-                    €{currentPrice.toFixed(2)}
+                    ${currentPrice.toFixed(2).replace('.', ',')}
                   </span>
                 </div>
                 <span className="text-[10px] text-tuscan-gold uppercase font-semibold font-mono tracking-widest mt-1">
@@ -104,7 +104,7 @@ export default function ValueStack() {
                           {item.title}
                         </span>
                         <span className="text-xs ml-auto font-mono text-tuscan-gold-light bg-tuscan-gold/10 px-2 py-0.5 rounded font-bold">
-                          €{item.value.toFixed(2)} Value
+                          ${item.value.toFixed(2).replace('.', ',')} Value
                         </span>
                       </div>
                       <p className="text-xs text-tuscan-grey mt-1 leading-relaxed">
@@ -133,7 +133,7 @@ export default function ValueStack() {
                 onClick={handleCheckout}
                 className="group relative flex w-full items-center justify-center gap-2 overflow-hidden rounded-md bg-tuscan-rust px-4 py-5 text-base font-bold text-tuscan-white shadow-md transition-all duration-300 hover:bg-tuscan-rust-dark hover:scale-[1.02] hover:shadow-lg"
               >
-                <span>Get Instant Digital Access & Save Today For Just €{currentPrice.toFixed(2)} →</span>
+                <span>Get Instant Digital Access & Save Today For Just ${currentPrice.toFixed(2).replace('.', ',')} →</span>
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
               </button>
 

@@ -8,9 +8,53 @@ import { Star, Award, ShieldCheck } from "lucide-react";
 
 export default function BookCover3D() {
   return (
-    <div className="relative flex items-center justify-center p-2 py-8 md:p-6">
-      {/* Background radial soft light overlay */}
-      <div className="absolute -inset-10 -z-10 rounded-full bg-tuscan-gold/10 opacity-75 blur-3xl pointer-events-none" />
+    <div className="relative flex items-center justify-center p-2 py-10 md:p-8">
+      {/* Behind-Book Cinematic Limelight / Spotlight Effect Scene */}
+      <div className="absolute inset-0 -z-10 pointer-events-none flex flex-col items-center justify-center">
+        {/* Slanted Spotlight Cone (Limelight Beam) */}
+        <div 
+          className="absolute -top-40 left-1/2 -translate-x-[60%] w-[380px] sm:w-[480px] h-[700px] bg-gradient-to-b from-amber-200/35 via-tuscan-gold/15 to-transparent blur-[35px] rounded-full origin-top rotate-[-12deg] mix-blend-screen"
+          style={{ clipPath: "polygon(35% 0%, 65% 0%, 100% 100%, 0% 100%)" }}
+        />
+        {/* Glowing pedestal stage puddle of light on the floor/bottom of the book */}
+        <div className="absolute -bottom-6 w-[280px] sm:w-[340px] h-[65px] bg-gradient-to-r from-amber-300/25 via-yellow-200/35 to-amber-300/25 rounded-full blur-[22px] mix-blend-screen animate-pulse" style={{ animationDuration: "3s" }} />
+        {/* Intense core golden backlight glow */}
+        <div className="absolute w-[360px] h-[360px] rounded-full bg-radial from-amber-200/15 via-tuscan-gold/5 to-transparent blur-[65px]" />
+      </div>
+
+      {/* Floating magical atmospheric dust particles catching the limelight */}
+      {[
+        { top: "15%", left: "10%", delay: 0.1, size: 7 },
+        { top: "30%", left: "85%", delay: 0.8, size: 9 },
+        { top: "65%", left: "5%", delay: 0.4, size: 6 },
+        { top: "80%", left: "90%", delay: 1.3, size: 8 },
+        { top: "45%", left: "15%", delay: 0.5, size: 5 },
+        { top: "75%", left: "20%", delay: 1.9, size: 7 },
+      ].map((p, idx) => (
+        <motion.div
+          key={idx}
+          className="absolute rounded-full bg-amber-300/60 pointer-events-none"
+          style={{
+            top: p.top,
+            left: p.left,
+            width: p.size,
+            height: p.size,
+            filter: "blur(0.8px) drop-shadow(0 0 8px rgba(253, 224, 71, 0.9))",
+          }}
+          animate={{
+            y: [0, -30, 0],
+            x: [0, 18, 0],
+            opacity: [0.3, 0.95, 0.3],
+            scale: [0.9, 1.25, 0.9],
+          }}
+          transition={{
+            duration: 6 + idx * 2,
+            repeat: Infinity,
+            ease: "easeInOut",
+            delay: p.delay,
+          }}
+        />
+      ))}
 
       {/* 3D Book Perspective Wrap */}
       <div className="group relative [perspective:1000px] h-[490px] w-[345px] sm:h-[510px] sm:w-[360px]">
@@ -25,20 +69,20 @@ export default function BookCover3D() {
           {/* original price crossed with a solid red strike-through */}
           <div className="relative text-[#BEB5AD] text-sm sm:text-base font-extrabold tracking-wider leading-none">
             <span className="relative inline-block px-1">
-              29,99 €
+              37,99$
               <span className="absolute left-0 right-0 top-1/2 h-[2.5px] bg-[#C05638] -translate-y-1/2 rounded" />
             </span>
           </div>
 
-          {/* new price with larger euro currency sign */}
-          <div className="mt-1 flex items-start justify-center text-[#F4BE4E] font-serif leading-none filter drop-shadow-[0_2px_8px_rgba(244,190,78,0.3)]">
-            <span className="text-2xl sm:text-3.5xl font-extrabold mt-0.5 mr-1 select-none">€</span>
+          {/* new price with larger dollar currency sign and more intense yellow with stronger glow */}
+          <div className="mt-1 flex items-start justify-center text-[#FFD300] font-serif leading-none filter drop-shadow-[0_3px_12px_rgba(255,211,0,0.5)]">
+            <span className="text-3xl sm:text-4xl font-extrabold mt-0.5 mr-1 select-none">$</span>
             <span className="text-4xl sm:text-[2.75rem] font-sans font-black tracking-tight leading-none">17,99</span>
           </div>
 
           {/* save amount in bold bright red */}
           <div className="mt-2 text-[10px] sm:text-xs font-black tracking-widest text-[#E13B2A] font-sans uppercase leading-none">
-            SAVE €11 TODAY
+            SAVE $20 TODAY
           </div>
         </motion.div>
 
@@ -57,6 +101,9 @@ export default function BookCover3D() {
         >
           {/* Subtle textured grid lines overlay for realistic paper finish */}
           <div className="absolute inset-0 rounded-r-md opacity-[0.06] pointer-events-none bg-[radial-gradient(#23211F_1px,transparent_1px)] [background-size:12px_12px] z-20" />
+
+          {/* Premium glossy limelight reflection sheen */}
+          <div className="absolute inset-0 rounded-r-md pointer-events-none bg-gradient-to-tr from-transparent via-white/10 to-[#FFF5D1]/30 z-[19]" />
 
           {/* Spine simulation shadow */}
           <div className="absolute left-0 top-0 bottom-0 w-3 bg-gradient-to-r from-black/20 via-black/5 to-transparent z-10" />
@@ -126,7 +173,7 @@ export default function BookCover3D() {
 
                 {/* Subtitle wording matching the actual cover */}
                 <p className="font-serif italic text-[9.5px] leading-relaxed text-tuscan-grey max-w-[240px] mx-auto px-2">
-                  A first-year budget guide for foreigners who don’t want nasty surprises after falling in love with a €50k–€100k property
+                  A first-year budget guide for foreigners who don’t want nasty surprises after falling in love with a $50k–$100k property
                 </p>
               </div>
 

@@ -8,7 +8,6 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import Header from "./components/Header";
 import Hero from "./components/Hero";
 import AboutAuthor from "./components/AboutAuthor";
 import SecondaryCTA from "./components/SecondaryCTA";
@@ -22,9 +21,6 @@ export default function App() {
     <div className="min-h-screen pt-[66px] bg-tuscan-ivory selection:bg-tuscan-rust/10 selection:text-tuscan-rust text-tuscan-charcoal font-sans antialiased overflow-x-hidden">
       {/* Countdown Promo Banner */}
       <PromoBanner />
-
-      {/* SECTION A: Sticky Glass Navigation Header */}
-      <Header />
 
       <main>
         {/* SECTION B: Hook & Curiosity Hero Section */}

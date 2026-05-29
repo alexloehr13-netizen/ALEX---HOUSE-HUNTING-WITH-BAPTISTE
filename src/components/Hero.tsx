@@ -36,7 +36,7 @@ export default function Hero() {
                 EXCLUSIVE GUIDE
               </span>
               <span className="text-xs font-bold uppercase tracking-[0.15em] text-tuscan-gold">
-                THE HIDDEN COSTS BEHIND THE €50,000 DREAM
+                THE HIDDEN COSTS BEHIND THE $50,000 DREAM
               </span>
             </motion.div>
 
@@ -60,7 +60,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="font-sans text-base leading-relaxed text-tuscan-grey sm:text-lg"
             >
-              Before you put a deposit on that charming €50,000 stone cottage in France or Italy, discover the hidden notary fees, renovation loopholes, and local tax traps that turn an apparent bargain into a financial nightmare.
+              Before you put a deposit on that charming $50,000 stone cottage in France or Italy, discover the hidden notary fees, renovation loopholes, and local tax traps that turn an apparent bargain into a financial nightmare.
             </motion.p>
 
             {/* Benefit Checkpoints */}
@@ -97,7 +97,7 @@ export default function Hero() {
                 onClick={handleCheckout}
                 className="group relative flex w-full items-center justify-center gap-2 overflow-hidden rounded-md bg-emerald-600 px-10 py-4.5 text-base font-bold text-tuscan-white shadow-md transition-all duration-300 hover:bg-emerald-700 hover:scale-[1.03] hover:shadow-lg sm:w-auto cursor-pointer"
               >
-                <span>BUY NOW (Just €17,99)</span>
+                <span>BUY NOW (Just $17,99)</span>
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
               </button>
 

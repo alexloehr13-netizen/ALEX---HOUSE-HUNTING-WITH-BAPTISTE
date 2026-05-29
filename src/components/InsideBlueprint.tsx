@@ -117,15 +117,15 @@ export default function InsideBlueprint() {
                           </h4>
                           <div className="flex items-center justify-between text-xs">
                             <span className="text-tuscan-grey">Masonry & Walls:</span>
-                            <span className="text-tuscan-charcoal font-semibold">€180 - €250/m²</span>
+                            <span className="text-tuscan-charcoal font-semibold">$180 - $250/m²</span>
                           </div>
                           <div className="flex items-center justify-between text-xs">
                             <span className="text-tuscan-grey">Plumbing Re-wiring:</span>
-                            <span className="text-tuscan-charcoal font-semibold">€3,500 - €5,200</span>
+                            <span className="text-tuscan-charcoal font-semibold">$3,500 - $5,200</span>
                           </div>
                           <div className="flex items-center justify-between text-xs">
                             <span className="text-tuscan-grey">Timber Roof Trusses:</span>
-                            <span className="text-tuscan-charcoal font-semibold">€120 - €190/m²</span>
+                            <span className="text-tuscan-charcoal font-semibold">$120 - $190/m²</span>
                           </div>
                         </div>
                       </div>

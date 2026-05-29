@@ -46,7 +46,7 @@ export default function RealityCheck() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="font-serif text-3xl font-semibold text-tuscan-charcoal sm:text-4xl"
           >
-            Why Modern "€1" and "Cheap" European Houses <br />
+            Why Modern "$1" and "Cheap" European Houses <br />
             <span className="italic text-tuscan-rust">Are Selling For a Reason.</span>
           </motion.h2>
           
