@@ -59,7 +59,7 @@ export const VALUE_STACK_ITEMS: ValueStackItem[] = [
     id: "val-1",
     title: "The Core eBook: The Real Cost of Buying a Cheap House in Europe",
     value: 29.99,
-    description: "The complete 95-page first-year budget guide detailing hidden notary fees, property evaluation traps, and closing taxes."
+    description: "The complete 140-page first-year budget guide detailing hidden notary fees, property evaluation traps, and closing taxes."
   },
   {
     id: "bonus-1",

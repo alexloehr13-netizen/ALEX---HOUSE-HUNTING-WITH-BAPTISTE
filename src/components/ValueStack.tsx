@@ -60,7 +60,7 @@ export default function ValueStack() {
                   The Expat Real Estate Toolkit
                 </h3>
                 <p className="text-xs text-tuscan-grey mt-1 max-w-xl">
-                  Includes the complete newly-revised 95-page eBook guide, plus all three custom-built interactive worksheets and local directories.
+                  Includes the complete newly-revised 140-page eBook guide, plus all three custom-built interactive worksheets and local directories.
                 </p>
               </div>
 

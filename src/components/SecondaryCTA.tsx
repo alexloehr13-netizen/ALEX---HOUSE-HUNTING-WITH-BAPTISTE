@@ -42,7 +42,7 @@ export default function SecondaryCTA() {
             </h3>
 
             <p className="text-sm leading-relaxed text-tuscan-grey">
-              Secure the comprehensive 95-page budget guide today. No mailing delays—instant high-resolution PDF downloads sent directly to your inbox.
+              Secure the comprehensive 140-page budget guide today. No mailing delays—instant high-resolution PDF downloads sent directly to your inbox.
             </p>
 
             <div className="flex flex-wrap items-center gap-4 pt-1 text-xs text-tuscan-grey font-medium">
