@@ -1,0 +1,6 @@
+{
+  "name": "Cheap House in Europe eBook",
+  "description": "Premium landing page for the eBook 'The Real Cost of Buying a Cheap House in Europe' by House Hunting with Baptiste.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
