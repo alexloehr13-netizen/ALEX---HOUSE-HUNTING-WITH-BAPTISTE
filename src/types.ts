@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-export const HOTMART_CHECKOUT_URL = "https://pay.hotmart.com/YOUR_PRODUCT_ID_HERE";
+export const HOTMART_CHECKOUT_URL = "https://pay.hotmart.com/S106053476K";
 
 export interface FAQItem {
   id: string;
