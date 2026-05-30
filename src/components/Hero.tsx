@@ -60,7 +60,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="font-sans text-base leading-relaxed text-tuscan-grey sm:text-lg"
             >
-              Before you put a deposit on that charming $50,000 stone cottage in France or Italy, discover the hidden notary fees, renovation loopholes, and local tax traps that turn an apparent bargain into a financial nightmare.
+              Before you put down a deposit on that charming $50,000 stone cottage in France, Italy, Spain, or Portugal, discover ALL the hidden costs most foreign buyers only learn after it’s too late. This complete 180-page guide could potentially save you thousands of dollars by helping you avoid costly mistakes before you buy your next home. Don’t buy the dream blind.
             </motion.p>
 
             {/* Benefit Checkpoints */}

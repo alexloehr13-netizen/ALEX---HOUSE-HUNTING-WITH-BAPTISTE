@@ -37,12 +37,12 @@ export default function SecondaryCTA() {
             </div>
 
             <h3 className="font-serif text-2xl font-bold text-tuscan-charcoal tracking-tight sm:text-3xl leading-tight">
-              Get Instant Access to <br />
+              Get Instant Access to Baptiste´s <br />
               <span className="italic text-tuscan-rust">The Real Cost of Buying a Cheap House in Europe</span>
             </h3>
 
             <p className="text-sm leading-relaxed text-tuscan-grey">
-              Secure the comprehensive 140-page budget guide today. No mailing delays—instant high-resolution PDF downloads sent directly to your inbox.
+              Secure the complete 180-page budget guide today. No mailing delays—instant high-resolution PDF downloads sent directly to your inbox.
             </p>
 
             <div className="flex flex-wrap items-center gap-4 pt-1 text-xs text-tuscan-grey font-medium">
